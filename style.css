@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+  margin-inline: auto;
+  text-align: center;
+}
+.sottologo {
+  color: #105960;
+  background-color: #ffc8001a;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: rgb(255, 217, 4);
+}
+
+main {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: #1b1d1dec;
+}
+
+img {
+  text-align: center;
+  border-radius: 10px;
+}
+
+.autore {
+  text-align: center;
+  padding: 0;
+  color: #6e6e6ebe;
+}
+
+#collegamento-link {
+  border-left: solid 2px rgb(255, 217, 4);
+}
+h6 {
+  margin: 0;
+  color: rgb(167, 97, 16);
+}
+
+a {
+  color: rgb(36, 154, 154);
+}
+
+.titoli-ricetta {
+  text-align: left;
+}
+
+hr {
+  border: solid 0.5px rgba(0, 187, 255, 0.305);
+}
+
+footer {
+  text-align: left;
+}
