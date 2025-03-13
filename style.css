@@ -11,6 +11,7 @@ header {
 }
 .sottologo {
   color: #105960;
+  font-weight: 400;
   background-color: #ffc8001a;
   border-top-style: solid;
   border-top-width: 2px;
@@ -18,19 +19,21 @@ header {
 }
 
 main {
-  max-width: 600px;
+  max-width: 700px;
   margin-inline: auto;
 }
 
 h1 {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 2.5em;
   color: #1b1d1dec;
 }
 
-img {
+main img {
+  max-width: 100%;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 6px 5px 12px #00000057;
 }
 
 .autore {
@@ -40,11 +43,16 @@ img {
 }
 
 #collegamento-link {
+  padding-left: 1em;
   border-left: solid 2px rgb(255, 217, 4);
 }
-h6 {
+#collegamento-link h5 {
   margin: 0;
   color: rgb(167, 97, 16);
+}
+
+main h6 {
+  margin: 0;
 }
 
 a {
@@ -57,6 +65,13 @@ a {
 
 hr {
   border: solid 0.5px rgba(0, 187, 255, 0.305);
+}
+
+main li {
+  padding: 0.5em;
+}
+ul li:not(:last-child) {
+  margin: bottom 0.5em;
 }
 
 footer {
